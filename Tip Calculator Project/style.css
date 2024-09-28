@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f2f2f2;
+  font-family: "Helvetica", sans-serif;
+}
+.calculator{
+  background-color: white;
+  width: 85vh;
+  height: 30vh;
+  min-height: 60vh;
+  margin: 15vh auto;
+  border-radius: 2vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 4vh;
+}
+h1{
+  font-size:4vh;
+  text-align: center;
+}
+p{
+  padding-top:3vh;
+}
+.bill_amount{
+  padding-top:3vh;
+}
+.tip_percent{
+  padding-top: 3vh;
+}
+input{
+  width: 100%;
+  border:1px solid rgb(228, 217, 217);
+  border-radius: 4px;
+  height: 5vh;
+  padding: 1vh;
+  margin-top:2vh;
+}
+input:focus{
+  border: none;
+}
+button{
+  color: white;
+  background-color: rgb(76, 175, 80);
+  border: none;
+  width: 100%;
+  height:6vh;
+  margin-top: 3vh;
+  padding: 1vh;
+  font-size: 20px;
+  cursor: pointer;
+}
+span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media (max-width:450px) {
+  .calculator{
+    width: 52vh;
+    height: 30vh;
+    min-height: 60vh;
+    margin: 15vh auto;
+    padding: 1.5vh;
+  }
+  button{
+    height: 5.5vh;
+  }
+  span{
+    font-size: 19px;
+  }
+}
